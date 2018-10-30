@@ -23,6 +23,8 @@ namespace TestDataStructures
             }
             else
             {
+                //Change the previous reference in the new node
+                newNode.Prev = Tail;
                 //Change the tail next reference
                 Tail.Next = newNode;
                 //change the tail
