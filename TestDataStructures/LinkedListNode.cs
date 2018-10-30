@@ -47,7 +47,7 @@ namespace TestDataStructures
         {
             for (int i = 0; i < Count; i++)
             {
-                Console.WriteLine();
+                Console.WriteLine(GetNode(i).Data);
             }
         }
     }
