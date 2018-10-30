@@ -30,5 +30,25 @@ namespace TestDataStructures
                 Count++;
             }
         }
+
+        public Node GetNode(int index)
+        {
+            int start = 0;
+            Node temp = Head; //mark the start of my search
+            while (start != index)
+            {
+                start += 1;
+                temp = temp.Next;
+            }
+            return temp;
+        }
+
+        public void PrintList()
+        {
+            for (int i = 0; i < Count; i++)
+            {
+                Console.WriteLine();
+            }
+        }
     }
 }
