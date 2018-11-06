@@ -8,8 +8,8 @@ namespace TestDataStructures
 {
     class Node
     {
-        public string Data { get; set; }
-        public Node Next { get; set; }
-        public Node Prev { get; set; }
+        public string Data { get; set; } // Whatever data the node holds, this can be multiple fields/properties
+        public Node Next { get; set; } // Points to the next node in the list
+        public Node Prev { get; set; } // Points to the previous node in the list
     }
 }
